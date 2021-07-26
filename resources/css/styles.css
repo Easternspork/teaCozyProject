@@ -1,0 +1,130 @@
+html {
+    font-family: 'Zen Loop', cursive;
+    font-size: 30px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+/* Navbar Styling */
+
+#logo {
+    height: 50px;
+}
+
+nav {
+    top:0;
+    left:0;
+    width: 100%;
+    border-bottom: 1px solid grey;
+    position: fixed;
+    z-index: 2;
+    background-color: black;
+}
+
+nav li {
+    display: inline;
+    float: right;
+    padding: 0px 20px;
+    height: 50px;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+@media only screen and (max-width: 600px) {
+    nav ul {
+        display: none;
+    }
+}
+
+/* Main */
+
+/* Mission Section */
+
+#mission {
+    position: relative;
+    top: 100px;
+    margin: 10px auto;
+    background-image: url("C:/CodeStuff/jsProjects/teacozyProject/resources/media/img-mission-background.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    width: 80%;
+}
+
+#mission-text {
+    position: relative;
+    top: 315px;
+    background-color: black;
+    text-align: center;
+    opacity: 0.9;
+}
+
+/* Tea Type Section */
+
+#tea-of-month {
+    margin-bottom: 100px;
+}
+
+#mission-subtext {
+    text-align: center;
+    margin: 0px auto;
+    margin-top: 150px;
+}
+
+#pictures {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 70%;
+    margin: 0px auto;
+}
+
+.tea-type {
+    border: 1px solid gray;
+    width: fit-content;
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Locations Section */
+
+#locations {
+    margin: 10px auto;
+    background-image: url("C:/CodeStuff/jsProjects/teacozyProject/resources/media/img-locations-background.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    width: 80%;
+    text-align: center;
+}
+
+.place {    
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    opacity: 0.9;
+}
+
+#place-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 70%;
+    margin: 0px auto;
+}
+
+#locations h2, #place-container {
+    position: relative;
+    top: 100px;
+}
+
+/* footer content */
+
+#bottomtext {
+    text-align: center;
+}
