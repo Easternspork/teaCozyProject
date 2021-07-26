@@ -48,7 +48,7 @@ a {
     position: relative;
     top: 100px;
     margin: 10px auto;
-    background-image: url("C:/CodeStuff/jsProjects/teacozyProject/resources/media/img-mission-background.jpg");
+    background-image: url("../media/img-mission-background.jpg");
     background-position: center;
     background-size: cover;
     height: 700px;
@@ -95,7 +95,7 @@ a {
 
 #locations {
     margin: 10px auto;
-    background-image: url("C:/CodeStuff/jsProjects/teacozyProject/resources/media/img-locations-background.jpg");
+    background-image: url("../media/img-locations-background.jpg");
     background-position: center;
     background-size: cover;
     height: 700px;
