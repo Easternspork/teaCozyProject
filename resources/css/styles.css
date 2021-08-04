@@ -78,7 +78,7 @@ a {
 #pictures {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     flex-direction: row;
     width: 70%;
     margin: 0px auto;
@@ -88,7 +88,7 @@ a {
     border: 1px solid gray;
     width: fit-content;
     text-align: center;
-    margin-top: 50px;
+    margin: 50px
 }
 
 /* Locations Section */
@@ -98,9 +98,10 @@ a {
     background-image: url("../media/img-locations-background.jpg");
     background-position: center;
     background-size: cover;
-    height: 700px;
+    height: max-content;
     width: 80%;
     text-align: center;
+    padding-bottom: 200px;
 }
 
 .place {    
@@ -108,19 +109,19 @@ a {
     width: 300px;
     background-color: black;
     opacity: 0.9;
+    margin: 20px;
 }
 
 #place-container {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    width: 70%;
-    margin: 0px auto;
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 #locations h2, #place-container {
     position: relative;
     top: 100px;
+    
 }
 
 /* footer content */
